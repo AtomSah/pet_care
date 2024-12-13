@@ -55,21 +55,21 @@ class _LoginViewState extends State<LoginView> {
                   ),
                 ),
                 SizedBox(height: 20),
-                // Padding(
-                //   padding: const EdgeInsets.symmetric(horizontal: 40.0),
-                //   child: GridView.count(
-                //     shrinkWrap: true,
-                //     crossAxisCount: 2,
-                //     crossAxisSpacing: 10,
-                //     mainAxisSpacing: 10,
-                //     children: [
-                //       _buildImageTile('assets/cat.png'),
-                //       _buildImageTile('assets/mouse.png'),
-                //       _buildImageTile('assets/rabbit.png'),
-                //       _buildImageTile('assets/bird.png'),
-                //     ],
-                //   ),
-                // ),
+                Padding(
+                  padding: EdgeInsets.symmetric(horizontal: 40.0),
+                  // child: const GridView.count(
+                  //   shrinkWrap: true,
+                  //   crossAxisCount: 2,
+                  //   crossAxisSpacing: 10,
+                  //   mainAxisSpacing: 10,
+                  //   children: [
+                  //     _buildImageTile('assets/image/download (1).jpeg'),
+                  //     _buildImageTile('assets/image/download (2).jpeg'),
+                  //     _buildImageTile('assets/image/download (3).jpeg'),
+                  //     _buildImageTile('assets/image/download (4).jpeg'),
+                  //   ],
+                  // ),
+                ),
               ],
             ),
 
