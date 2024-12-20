@@ -116,6 +116,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
               child: ElevatedButton(
                 onPressed: _nextPage,
                 style: ElevatedButton.styleFrom(
+                  backgroundColor: Colors.blue,
                   minimumSize: const Size(double.infinity, 50),
                   shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(30),
@@ -125,6 +126,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                   _currentPage == onboardingData.length - 1
                       ? "Get Started"
                       : "Next",
+                  style: TextStyle(color: Colors.white),
                 ),
               ),
             ),
